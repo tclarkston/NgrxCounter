@@ -13,7 +13,7 @@ import { MyCounterComponent } from './components/my-counter/my-counter.component
   ],
   imports: [
     BrowserModule,
-    StoreModule.forRoot({ counßt: counterReducer})
+    StoreModule.forRoot({ count: counterReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]
